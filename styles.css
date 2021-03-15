@@ -1,0 +1,49 @@
+.flex-container1 {
+  display: flex;
+  padding: 4px;
+  font-size: 15px;
+  border: 1.5px solid #dddddd;
+  height: 30px;
+  
+}
+.flex-container2 {
+  display: flex;
+  padding: 0px;
+  font-size: 15px;
+  border: 1.5px solid #dddddd;
+  height: 30px;
+}
+
+.payment-method {
+  margin-left: 130px;
+  background-color: aquamarine;
+}
+
+.btn {
+  background-color: black;
+  margin-left: 1010px;
+  display: flex;
+  height: 20px;
+  width: 18px;
+  color: white;
+  justify-content: center;
+}
+
+.cartblock {
+  margin-left: 50%;
+  background-color: #dddddd;
+  width: 100%;
+}
+
+.payment-block {
+  width: 20%;
+}
+
+/* @media screen and (max-width:1000px) and (min-width:768px){
+ body{
+    background-color:grey
+  }
+  payment-method{
+    color: white;
+  }
+} */
